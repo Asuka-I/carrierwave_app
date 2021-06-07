@@ -1,0 +1,9 @@
+<h1>一覧表示</h1>
+<section>
+  <% @posts.each do |post| %>
+    <div>
+      <p>タイトル: <%= post.title %></p>
+      <p>内容: <%= post.content %></p>
+    </div>
+  <% end %>
+</section>

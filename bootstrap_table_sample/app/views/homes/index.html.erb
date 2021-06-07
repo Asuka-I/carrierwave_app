@@ -1,0 +1,18 @@
+<label class="sr-only" for="language-search">言語絞り込み</label>
+<div class="input-group">
+  <div class="input-group-prepend">
+    <div class="input-group-text">言語絞り込み</div>
+  </div>
+  <input type="search" class="form-control" id="language-search">
+</div>
+<table class="table table-striped">
+  <thead class="bg-info text-white">
+    <tr>
+      <th>言語</th>
+      <th>説明</th>
+    </tr>
+  </thead>
+  <tbody id="language-tbody">
+    <%= render @notes %>
+  </tbody>
+</table>
